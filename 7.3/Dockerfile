@@ -42,6 +42,7 @@ RUN pecl install \
 
 # Enable PECL and PEAR extensions
 RUN docker-php-ext-enable \
+    redis \
     imagick \
     xdebug
 
